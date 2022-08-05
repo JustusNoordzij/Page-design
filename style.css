@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.head
+
+.img {
+    width: 100px;
+    height: 100px;
+
+}
+
+button{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+.info {
+    max-width: 200px;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   gap: 52px;
+}
+    
+    
+
+
