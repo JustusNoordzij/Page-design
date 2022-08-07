@@ -81,6 +81,38 @@ button{
     font-size: 12px;
   }
 
+.information {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px
+}
+
+.information .info-header {
+    font-size: 36px;
+    color: #1F2937;
+    display:flex;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    gap: 52px;
+  }
+  
+.container img {
+    width: 200px;
+}
+
+.container .text {
+    font-size: 14px;
+
+}
+
     
 
 
