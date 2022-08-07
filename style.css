@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 
@@ -18,8 +19,9 @@ body {
 
 .header {
     background-color: #1F2937;
+    margin-bottom: 300px;
     height: 500px;
-    margin-bottom: 400px;
+    
 
 }
 
@@ -32,7 +34,7 @@ nav {
 }
 
 nav .logo {
-    margin-left: 10px;
+    margin: 10px 10px;
 }
 
 ul {
@@ -66,7 +68,7 @@ main {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 500px;
+   height: 400px;
     align-items: center;
     margin: auto;
 
@@ -106,6 +108,7 @@ button{
     border-radius: 8px;
     align-self: flex-start;
     font-size: 12px;
+    margin: 10px 0px;
   }
 
 .information {
@@ -141,6 +144,14 @@ button{
 
 }
 
+.container a {
+    color: blue;
+    text-decoration: none;
+}
+.container a:hover{
+    cursor: pointer;
+    color: purple;
+}
 
 .quote {
     background-color: #E5E7EB;
@@ -148,15 +159,16 @@ button{
     flex-direction: column;
     align-items: center;
     height: 400px;
-    margin: 100px auto;  
     border-radius: 25px;
+    padding: 20px;
+    margin-top: 40px;
 }
 
 .quote p {
     font-size: 36px;
     font-style: italic;
     width: 50%;
-
+    
 }
 
 .quote h1 {
@@ -183,7 +195,7 @@ button{
     margin: auto;
 }
 
-.action .signup {
+.action .button {
     font-size: 12px;
     margin: auto;
     border-color:#E5E7EB;
