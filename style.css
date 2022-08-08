@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'roboto';
 }
 
 
@@ -95,9 +96,8 @@ main {
     
 }
 
-.header-right {
-    display: flex;
-    height: 200px;
+.header img {
+    border-radius: 15px;
 }
 
 button{
@@ -137,6 +137,7 @@ button{
   
 .container img {
     width: 200px;
+    border-radius: 15px;
 }
 
 .container .text {
