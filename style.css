@@ -9,9 +9,7 @@
 header {
     display: flex;
     justify-content: center;
-    align-items: center;
-   
-    
+    align-items: center;  
 }
 
 body {
@@ -22,16 +20,13 @@ body {
     background-color: #1F2937;
     margin-bottom: 300px;
     height: 500px;
-    
-
 }
 
 
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 nav .logo {
@@ -40,8 +35,7 @@ nav .logo {
 
 ul {
     display: flex;
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
 
 ul li a {
@@ -72,7 +66,6 @@ main {
    height: 400px;
     align-items: center;
     margin: auto;
-
 }
 
 .header-left {
@@ -85,15 +78,13 @@ main {
     font-size: 48px;
     color: #F9FAF8;
     margin-left: 0;
-
 }
 
 .header-left p {
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
-    color: #E5E7EB;
-    
+    color: #E5E7EB;   
 }
 
 .header img {
@@ -109,7 +100,8 @@ button{
     align-self: flex-start;
     font-size: 12px;
     margin: 10px 0px;
-  }
+    cursor: pointer;
+}
 
 .information {
     display: flex;
@@ -168,14 +160,12 @@ button{
 .quote p {
     font-size: 36px;
     font-style: italic;
-    width: 50%;
-    
+    width: 50%; 
 }
 
 .quote h1 {
-    float: right;
-    font-size: 28px;
- 
+    float: left;
+    font-size: 28px;   
 }
 
 .action {
@@ -187,8 +177,6 @@ button{
     display: flex;
     justify-content: center;
     border-radius: 25px;
-
-    
 }
 
 .action .text {
@@ -200,6 +188,7 @@ button{
     font-size: 12px;
     margin: auto;
     border-color:#E5E7EB;
+    cursor: pointer;
 }
 
 .footer {
@@ -208,8 +197,7 @@ button{
     justify-content:  center;
     align-items: center;
     height: 40px;
-    padding: 15px;
-    
+    padding: 15px;   
 }
 
 .footer h4 {
